@@ -1,0 +1,132 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4109491114,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the login page is opened",
+            "match": {
+              "location": "Testmeapp.the_login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9980703351,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"lalitha\" and  user enters \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lalitha",
+                  "offset": 13
+                },
+                {
+                  "val": "password123",
+                  "offset": 40
+                }
+              ],
+              "location": "Testmeapp.user_enters_and_user_enters(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 518032329,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user will   Finds a testmeapp homepage",
+            "match": {
+              "location": "Testmeapp.user_will_Finds_a_testmeapp_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Successful Login with Valid Credentials",
+        "description": "",
+        "id": "login-action;successful-login-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000665163,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the login page is opened",
+            "match": {
+              "location": "Testmeapp.the_login_page_is_opened()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 257287069,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters \"admin\" and  user enters \"password456\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 13
+                },
+                {
+                  "val": "password456",
+                  "offset": 38
+                }
+              ],
+              "location": "Testmeapp.user_enters_and_user_enters(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 365455516,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user will   Finds a testmeapp homepage",
+            "match": {
+              "location": "Testmeapp.user_will_Finds_a_testmeapp_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Action",
+    "description": "",
+    "id": "login-action",
+    "keyword": "Feature",
+    "uri": "Testme.feature"
+  }
+]
