@@ -20,6 +20,7 @@ public class Testmeapp {
 	driver =new ChromeDriver();
 	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	driver.get("http://localhost:8090/TestMeApp2.2/login.htm");
+	System.out.println("title of the page "+driver.getTitle());
 		
 	}
 
